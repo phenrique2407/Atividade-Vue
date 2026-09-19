@@ -87,12 +87,9 @@ Atividade-Vue/
 - Layout responsivo, com imagens e cards legíveis em janelas estreitas
 - Aplicação funcionando com `npm run dev`
 
-## Autor
+## Autores
 
 - Pedro Henrique Dias Brito ([@phenrique2407](https://github.com/phenrique2407))
-
-## Colaboradores
-
 - Vinícius Rodrigues Vilaça ([@bladecvill](https://github.com/bladecvill))
 - Vitório Fraga Motta ([@vitorio-motta](https://github.com/vitorio-motta))
 
