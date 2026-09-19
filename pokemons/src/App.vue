@@ -16,7 +16,7 @@
     <RouterView />
     
     <footer class="rodape">
-      <p>Projeto desenvolvido por <strong>Pedro Henrique Dias Brito, Vinícius Rodrigues Vilaça e Vitorio Fraga Mota</strong></p>
+      <p>Projeto desenvolvido por <strong>Pedro Henrique Dias Brito, Vinícius Rodrigues Vilaça e Vitório Fraga Motta</strong></p>
     </footer>
   </div>
 </template>

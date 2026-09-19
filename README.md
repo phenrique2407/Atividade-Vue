@@ -1,8 +1,19 @@
-# Portal de Adoção de Pokémons
+# Patas de Kanto: Portal de Adoção de Pokémons
 
 Projeto desenvolvido na disciplina **Frameworks Front-End** (Graduação em Análise e Desenvolvimento de Sistemas, Faculdade SENAI Taubaté).
 
-O site é uma adaptação do desafio "Patas do Vale": em vez de animais reais, apresenta **Pokémons disponíveis para adoção** e orienta futuros treinadores sobre os cuidados necessários, com visual inspirado na Pokédex
+O site é uma adaptação do desafio "Patas do Vale": em vez de animais reais, apresenta **Pokémons disponíveis para adoção** e orienta futuros treinadores sobre os cuidados necessários, com visual inspirado na Pokédex (tons de vermelho).
+
+## Capturas de tela
+
+### Início
+![Tela Início](capturas/Inicio.png)
+
+### Pokémons
+![Tela Pokémons](capturas/Pokemons.png)
+
+### Cuidados
+![Tela Cuidados](capturas/Cuidados.png)
 
 ## Tecnologias
 
@@ -16,7 +27,7 @@ O site é uma adaptação do desafio "Patas do Vale": em vez de animais reais, a
 | Rota        | Arquivo                            | Descrição                                         |
 |-------------|------------------------------------|---------------------------------------------------|
 | `/`         | `src/views/InicioView.vue`         | Apresentação do portal e link para os Pokémons    |
-| `/pokemons` | `src/views/PokemonsView.vue`       | Cards dos Pokémons disponíveis para adoção        |
+| `/pokemons` | `src/views/PokemonsView.vue`       | Cards dos Pokémons disponíveis (Eevee, Pikachu e Arceus) |
 | `/cuidados` | `src/views/CuidadosView.vue`       | Orientações de cuidados antes da adoção           |
 
 O menu e o rodapé ficam no `App.vue`. O conteúdo de cada rota é exibido dentro do `<RouterView />`.
@@ -44,22 +55,28 @@ Para gerar a versão de produção:
 npm run build
 ```
 
-## Estrutura de pastas
+## Estrutura do repositório
 
 ```
-pokemons/
-├── public/
-├── src/
-│   ├── assets/
-│   │   └── images/      # imagens locais importadas nas views
-│   ├── router/
-│   │   └── index.js     # definição das rotas
-│   ├── views/           # telas: Início, Pokémons e Cuidados
-│   ├── App.vue          # menu, RouterView e rodapé
-│   └── main.js          # inicialização do app
-├── index.html
-├── package.json
-└── vite.config.js
+Atividade-Vue/
+├── capturas/            # capturas de tela da aplicação
+│   ├── Inicio.png
+│   ├── Pokemons.png
+│   └── Cuidados.png
+├── pokemons/            # projeto Vue
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   │   └── images/  # imagens locais importadas nas views
+│   │   ├── router/
+│   │   │   └── index.js # definição das rotas
+│   │   ├── views/       # telas: Início, Pokémons e Cuidados
+│   │   ├── App.vue      # menu, RouterView e rodapé
+│   │   └── main.js      # inicialização do app
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+└── README.md
 ```
 
 ## Requisitos atendidos
@@ -73,6 +90,11 @@ pokemons/
 ## Autor
 
 - Pedro Henrique Dias Brito ([@phenrique2407](https://github.com/phenrique2407))
+
+## Colaboradores
+
+- Vinícius Rodrigues Vilaça ([@bladecvill](https://github.com/bladecvill))
+- Vitório Fraga Motta ([@vitorio-motta](https://github.com/vitorio-motta))
 
 ## Observações
 
