@@ -90,6 +90,8 @@ Atividade-Vue/
 ## Autores
 
 - Pedro Henrique Dias Brito ([@phenrique2407](https://github.com/phenrique2407))
+
+## Colaboradores
 - Vinícius Rodrigues Vilaça ([@bladecvill](https://github.com/bladecvill))
 - Vitório Fraga Motta ([@vitorio-motta](https://github.com/vitorio-motta))
 
